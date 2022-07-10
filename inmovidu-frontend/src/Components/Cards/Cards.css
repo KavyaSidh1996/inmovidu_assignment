@@ -1,0 +1,51 @@
+.Cards{
+    padding: 2rem 6rem;
+    text-align: center;
+}
+
+.Cards .card .card-body .card-title{
+    font-family: Inter;
+    font-size: 26px;
+}
+
+.Cards .card .card-body p{
+    text-align: justify;
+    font-size: 18px;
+}
+
+.btn{
+    background-color: #54006b;
+    color: white;
+}
+
+.btn:hover{
+    background-color:rgb(204, 18, 61);
+    color: white;
+}
+
+.register{
+    background-color: rgb(204, 18, 61);
+    padding: 0.5rem 1rem;
+    color:white;
+}
+
+.register:hover{
+    background-color: #54006b;
+    color:white;
+}
+
+@media (max-width:992px){
+    .Cards{
+        padding: 2rem 4rem;
+        text-align: center;
+    }
+    
+}
+
+@media (max-width:600px){
+    .Cards{
+        padding: 2rem 2rem;
+        text-align: center;
+    }
+    
+}
