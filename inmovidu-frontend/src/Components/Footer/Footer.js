@@ -4,11 +4,11 @@ import { faTwitter, faFontAwesome, faFacebook, faLinkedinIn, faWhatsapp, faInsta
 
 export default function Footer(){
     return(
-        <div className="row Footer-two px-5">
+        <div className="row Footer px-5">
         <div className="col-md-6">
             <p>Copyright © Getkenz All Rights Reserved</p>
         </div>
-        <div className="col-md-6 text-center">
+        <div className="col-md-6 text-end">
         <p>
         <FontAwesomeIcon className="mx-3" icon={faTwitter} /><span>|</span>
         <FontAwesomeIcon className="mx-3" icon={faFacebookF}/><span>|</span>
